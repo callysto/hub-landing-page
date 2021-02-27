@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Callysto/Syzygy"
+theme = "syzygy-callysto"
+
+[params]
+  hub_url = "/jupyter/hub"
+  signin_text = "Sign in with your account"
+  logo = "/images/callysto-logo.png"
