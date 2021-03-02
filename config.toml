@@ -1,9 +1,51 @@
-baseURL = "http://example.org/"
+baseURL = "http://hub.callysto.ca/"
 languageCode = "en-us"
-title = "Callysto/Syzygy"
+title = "hub.callysto.ca"
 theme = "syzygy-callysto"
 
 [params]
   hub_url = "/jupyter/hub"
   signin_text = "Sign in with your account"
   logo = "/images/callysto-logo.png"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "#about"
+    weight = "10"
+
+  [[menu.main]]
+    identifier = "support"
+    name = "support"
+    post = " <i class='fa fa-envelope'></i>"
+    url = "mailto:support@callysto.ca"
+    weight = "20"
+  
+  [[menu.main]]
+    identifier = "callysto.ca"
+    name = "callysto.ca"
+    post = " <i class='fas fa-external-link-alt'></i>"
+    url = "https://callysto.ca"
+    weight = "30"
+  
+  [[menu.main]]
+    identifier = "tutorial"
+    name = "tutorial"
+    post = " <i class='fas fa-external-link-alt'></i>"
+    url = "https://intro.syzygy.ca"
+    weight = "40"
+  
+  [[menu.main]]
+    identifier = "partners"
+    name = "partners"
+    pre = ""
+    url = "#partners"
+    weight = "50"
+
+  [[menu.main]]
+    identifier = "sign-in"
+    name = "sign-in"
+    pre = "<i class='fas fa-sign-in-alt'></i>"
+    url = "https://hub.callysto.ca/jupyter/hub"
+    weight = "100"
