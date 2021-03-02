@@ -1,7 +1,7 @@
 baseURL = "http://hub.callysto.ca/"
 languageCode = "en-us"
 title = "hub.callysto.ca"
-theme = "syzygy-callysto"
+theme = ["github.com/pimsmath/gohugo-theme-syzygy-callysto"]
 
 [params]
   hub_url = "/jupyter/hub"
