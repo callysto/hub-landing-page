@@ -41,5 +41,4 @@ subtitle = "<hr>"
   url = "https://www.canada.ca/en/innovation-science-economic-development/programs/science-technology-partnerships/cancode.html"
   weight = 100
 
-
 +++

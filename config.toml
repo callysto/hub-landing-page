@@ -1,6 +1,6 @@
 baseURL = "http://hub.callysto.ca/"
 languageCode = "en-us"
-title = "hub.callysto.ca"
+title = "{{ callysto_html_hostname }}"
 theme = ["github.com/pimsmath/gohugo-theme-syzygy-callysto"]
 
 [params]
@@ -19,7 +19,7 @@ theme = ["github.com/pimsmath/gohugo-theme-syzygy-callysto"]
     identifier = "support"
     name = "support"
     post = " <i class='fa fa-envelope'></i>"
-    url = "mailto:support@callysto.ca"
+    url = "mailto:{{ callysto_html_support_email }}"
     weight = "20"
   
   [[menu.main]]
@@ -47,5 +47,5 @@ theme = ["github.com/pimsmath/gohugo-theme-syzygy-callysto"]
     identifier = "sign-in"
     name = "sign-in"
     pre = "<i class='fas fa-sign-in-alt'></i>"
-    url = "https://hub.callysto.ca/jupyter/hub"
+    url = "/jupyter/hub"
     weight = "100"

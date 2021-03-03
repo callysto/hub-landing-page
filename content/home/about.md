@@ -10,7 +10,7 @@ weight = 20
 
 [[item]]
   fa = "fa-info-circle"
-  description = "[Callysto website](https://callysto.ca)"
+  description = "[Callysto website](https://{{ callysto_html_domain }})"
 
 [[item]]
   fa = "fa-book"
@@ -36,6 +36,3 @@ weight = 20
   fa = "fa-users"
   description = "Built for collaboration"
 +++
-
-# About
-This is the about widget
