@@ -10227,3 +10227,7 @@ span.fa-li {
 #mainNav .navbar-brand:hover {
     color: #3a22a6;
 }
+
+#mainNav .navbar-nav li.nav-item {
+    white-space: nowrap;
+}
