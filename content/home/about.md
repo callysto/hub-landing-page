@@ -10,7 +10,7 @@ weight = 20
 
 [[item]]
   fa = "fa-info-circle"
-  description = "[Callysto website](https://{{ callysto_html_domain }})"
+  description = "[Callysto website](https://callysto.ca)"
 
 [[item]]
   fa = "fa-book"
