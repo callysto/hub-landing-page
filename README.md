@@ -7,7 +7,7 @@ the gh-pages branch every time you push to this branch.
 ## Building/Developing
 
 All you should need to build this site is a recent version of hugo. Anything
-above v0.64.1 _should_ work.
+above v0.64.1 _should_ work, but something above 0.80.0 is recommended.
 
 The site is uses the
 [syzygy-callysto](https://github.com/pimsmath/gohugo-theme-syzygy-callysto)
