@@ -33,7 +33,7 @@ theme = ["github.com/pimsmath/gohugo-theme-syzygy-callysto"]
     identifier = "tutorial"
     name = "tutorial"
     post = " <i class='fas fa-external-link-alt'></i>"
-    url = "https://intro.syzygy.ca"
+    url = "https://www.callysto.ca/starter-kit/"
     weight = "40"
   
   [[menu.main]]
